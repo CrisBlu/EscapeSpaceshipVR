@@ -37,7 +37,6 @@ public class TimerScript : MonoBehaviour
         if (TimeLeft <= 85 && track == 1)
         {
             goodbyeSound.Play(0);
-            Rumble.Play(0);
             track += 1;
         }
     }
