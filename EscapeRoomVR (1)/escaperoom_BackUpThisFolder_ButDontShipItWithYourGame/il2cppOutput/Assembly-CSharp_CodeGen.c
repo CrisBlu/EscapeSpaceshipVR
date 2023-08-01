@@ -154,29 +154,43 @@ extern void ElectricalPanelPuzzle_UnlitLED_m4DA108A96C20C52B83DFC664AD6DC0793532
 extern void ElectricalPanelPuzzle_CheckAllLEDOn_m75512FD018AFD74AF781B828F42083368B41EC9B (void);
 // 0x00000047 System.Void ElectricalPanelPuzzle::.ctor()
 extern void ElectricalPanelPuzzle__ctor_m8E7C45E4775CA1BAEB12A94136D610841AD37696 (void);
-// 0x00000048 System.Void TimerScript::Start()
+// 0x00000048 System.Void RayToggler::Start()
+extern void RayToggler_Start_m7F4C59CAAAEA1B10676DDD3CF5873DC22301FCE4 (void);
+// 0x00000049 System.Void RayToggler::OnEnable()
+extern void RayToggler_OnEnable_m1A959A812D2B9043DB18E4D7383151E21A6114EA (void);
+// 0x0000004A System.Void RayToggler::OnDisable()
+extern void RayToggler_OnDisable_m7D37A6B0FB8F8A5F231A4FD886C679A9F6119E19 (void);
+// 0x0000004B System.Void RayToggler::ToggleRay(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void RayToggler_ToggleRay_mB04E423C2087A16FD07604A64F5F5C9FCC70BEE2 (void);
+// 0x0000004C System.Void RayToggler::LateUpdate()
+extern void RayToggler_LateUpdate_mD0105189D27281757305E3A39AB29E9713B14C17 (void);
+// 0x0000004D System.Void RayToggler::ApplyStatus()
+extern void RayToggler_ApplyStatus_m71AF5383392D1676A908D9031158E52D0DA35535 (void);
+// 0x0000004E System.Void RayToggler::.ctor()
+extern void RayToggler__ctor_mBF08621FE343049F73C7B402531791F0A8FFA65D (void);
+// 0x0000004F System.Void TimerScript::Start()
 extern void TimerScript_Start_mC066FA62F50E6D58B359518C642CE9005E3344D0 (void);
-// 0x00000049 System.Void TimerScript::Update()
+// 0x00000050 System.Void TimerScript::Update()
 extern void TimerScript_Update_m45499011F7FDAC924A920E475712C081C0E00133 (void);
-// 0x0000004A System.Void TimerScript::updateTimer(System.Single)
+// 0x00000051 System.Void TimerScript::updateTimer(System.Single)
 extern void TimerScript_updateTimer_mE5554D2DACC992570416C538810EF95681E360A9 (void);
-// 0x0000004B System.Collections.IEnumerator TimerScript::Fade()
+// 0x00000052 System.Collections.IEnumerator TimerScript::Fade()
 extern void TimerScript_Fade_m1D5F7BCB458F5D99B83627CE697D9AC9293F3EB9 (void);
-// 0x0000004C System.Void TimerScript::.ctor()
+// 0x00000053 System.Void TimerScript::.ctor()
 extern void TimerScript__ctor_m5341AAB8DB0EEC08CC13E3AFC70E88E04F577ADC (void);
-// 0x0000004D System.Void TimerScript/<Fade>d__10::.ctor(System.Int32)
+// 0x00000054 System.Void TimerScript/<Fade>d__10::.ctor(System.Int32)
 extern void U3CFadeU3Ed__10__ctor_m3AAAAF80C2EB8F421185366997D4CF07ADAA3776 (void);
-// 0x0000004E System.Void TimerScript/<Fade>d__10::System.IDisposable.Dispose()
+// 0x00000055 System.Void TimerScript/<Fade>d__10::System.IDisposable.Dispose()
 extern void U3CFadeU3Ed__10_System_IDisposable_Dispose_mFACE383C639560134B8B0D815EA8A9409495DC62 (void);
-// 0x0000004F System.Boolean TimerScript/<Fade>d__10::MoveNext()
+// 0x00000056 System.Boolean TimerScript/<Fade>d__10::MoveNext()
 extern void U3CFadeU3Ed__10_MoveNext_mEC5773A2500DDDFB6855E6B825DD340C21310D67 (void);
-// 0x00000050 System.Object TimerScript/<Fade>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000057 System.Object TimerScript/<Fade>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CFadeU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC63E4D175496D30FD9056060330D4821196BDCBA (void);
-// 0x00000051 System.Void TimerScript/<Fade>d__10::System.Collections.IEnumerator.Reset()
+// 0x00000058 System.Void TimerScript/<Fade>d__10::System.Collections.IEnumerator.Reset()
 extern void U3CFadeU3Ed__10_System_Collections_IEnumerator_Reset_mFD99BC0275FC09956F2D1618406AE3F8F7DCDF9F (void);
-// 0x00000052 System.Object TimerScript/<Fade>d__10::System.Collections.IEnumerator.get_Current()
+// 0x00000059 System.Object TimerScript/<Fade>d__10::System.Collections.IEnumerator.get_Current()
 extern void U3CFadeU3Ed__10_System_Collections_IEnumerator_get_Current_mFE4A098C32C2B23C0E5EDF3C118499318A63C5F6 (void);
-static Il2CppMethodPointer s_methodPointers[82] = 
+static Il2CppMethodPointer s_methodPointers[89] = 
 {
 	AnimateHandOnInput_Start_mDFB567101BCB7DCE653AE7E320015E93D3609592,
 	AnimateHandOnInput_Update_mC03CF4BE3804324BBC246D79B71F83B1A8848CDD,
@@ -249,6 +263,13 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	ElectricalPanelPuzzle_UnlitLED_m4DA108A96C20C52B83DFC664AD6DC079353275A3,
 	ElectricalPanelPuzzle_CheckAllLEDOn_m75512FD018AFD74AF781B828F42083368B41EC9B,
 	ElectricalPanelPuzzle__ctor_m8E7C45E4775CA1BAEB12A94136D610841AD37696,
+	RayToggler_Start_m7F4C59CAAAEA1B10676DDD3CF5873DC22301FCE4,
+	RayToggler_OnEnable_m1A959A812D2B9043DB18E4D7383151E21A6114EA,
+	RayToggler_OnDisable_m7D37A6B0FB8F8A5F231A4FD886C679A9F6119E19,
+	RayToggler_ToggleRay_mB04E423C2087A16FD07604A64F5F5C9FCC70BEE2,
+	RayToggler_LateUpdate_mD0105189D27281757305E3A39AB29E9713B14C17,
+	RayToggler_ApplyStatus_m71AF5383392D1676A908D9031158E52D0DA35535,
+	RayToggler__ctor_mBF08621FE343049F73C7B402531791F0A8FFA65D,
 	TimerScript_Start_mC066FA62F50E6D58B359518C642CE9005E3344D0,
 	TimerScript_Update_m45499011F7FDAC924A920E475712C081C0E00133,
 	TimerScript_updateTimer_mE5554D2DACC992570416C538810EF95681E360A9,
@@ -261,7 +282,7 @@ static Il2CppMethodPointer s_methodPointers[82] =
 	U3CFadeU3Ed__10_System_Collections_IEnumerator_Reset_mFD99BC0275FC09956F2D1618406AE3F8F7DCDF9F,
 	U3CFadeU3Ed__10_System_Collections_IEnumerator_get_Current_mFE4A098C32C2B23C0E5EDF3C118499318A63C5F6,
 };
-static const int32_t s_InvokerIndices[82] = 
+static const int32_t s_InvokerIndices[89] = 
 {
 	7227,
 	7227,
@@ -336,6 +357,13 @@ static const int32_t s_InvokerIndices[82] =
 	7227,
 	7227,
 	7227,
+	7227,
+	5930,
+	7227,
+	7227,
+	7227,
+	7227,
+	7227,
 	5756,
 	7094,
 	7227,
@@ -350,7 +378,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	82,
+	89,
 	s_methodPointers,
 	0,
 	NULL,
